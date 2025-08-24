@@ -42,8 +42,8 @@ export interface LoginResponse {
 }
 
 // API Configuration
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001/api';
-const WEBSOCKET_URL = process.env.REACT_APP_WS_URL || 'ws://localhost:3001';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+const WEBSOCKET_URL = import.meta.env.VITE_WS_URL || 'ws://localhost:3001';
 
 // Helper function for API calls with error handling
 async function apiCall<T>(
