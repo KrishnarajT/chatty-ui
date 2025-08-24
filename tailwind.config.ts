@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				whatsapp: {
+					green: 'hsl(var(--whatsapp-green))',
+					panel: 'hsl(var(--whatsapp-panel))',
+					sidebar: 'hsl(var(--whatsapp-sidebar))',
+					hover: 'hsl(var(--whatsapp-hover))',
+					selected: 'hsl(var(--whatsapp-selected))',
+					'message-out': 'hsl(var(--whatsapp-message-out))',
+					'message-in': 'hsl(var(--whatsapp-message-in))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
